@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/drawable-xhdpi/ic_picture.xml" value="0.2203125" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/drawable/auth_shape.xml" value="0.2203125" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/drawable/btn_custom.xml" value="0.2203125" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/drawable/btn_menu_custon.xml" value="0.2203125" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/drawable/ic_auth.xml" value="0.2203125" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/drawable/ic_login_bk.xml" value="0.2203125" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/drawable/input_custom.xml" value="0.2203125" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/drawable/login_shape_bk.xml" value="0.2203125" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_auth_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_auth_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_auth_register.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_auth_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_delivery_detail_do.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_delivery_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_delivery_upload.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_location.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_location_get.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/activity_upload_capture_camera.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/delivery_item_dn.xml" value="0.22" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/delivery_item_do.xml" value="0.25" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/item_auth_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/layout_auth_login.xml" value="0.22" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/layout_auth_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/layout_current_time_dialog.xml" value="0.75" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/layout_loading.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/layout_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/layout/layout_tanggal_jam.xml" value="0.67" />
+        <entry key="..\:/Users/sriha/Documents/Android Studio/MasterSH/app/src/main/res/xml/file_paths.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

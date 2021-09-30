@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/secondaryVariant"
+            android:text="REGISTER"
+            android:layout_marginTop="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/etAuthRegisterUsername"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="15dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:hint="Username"
+                android:textSize="14sp"
+                android:background="@drawable/input_custom"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/etAuthRegisterEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="15dp"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:hint="Email"
+                android:textSize="14sp"
+                android:background="@drawable/input_custom"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/etAuthRegisterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="15dp"
+                android:textSize="14sp"
+                android:background="@drawable/input_custom"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:hint="Password"
+                tools:ignore="TextFields" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/etAuthRegisterPasswordRepeat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="15dp"
+                android:hint="Confrim Password"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:textSize="14sp"
+                android:background="@drawable/input_custom"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnAuthRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:background="@drawable/btn_custom"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txtAuthRegisterAlredyAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/primaryTextColor"
+            android:text="Already have an account? Sign In"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

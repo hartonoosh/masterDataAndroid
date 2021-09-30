@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <include
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_tanggal_jam"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@+id/linearHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <Button
+                android:id="@+id/buttonTutorialAuth"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tutorial Auth Restful API"
+                android:textColor="@color/black"
+                android:background="@drawable/btn_menu_custom"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/buttonTutorialCrud"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tutorial CRUD Resful API"
+                android:background="@drawable/btn_menu_custom"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/buttonTutorialDelivery"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tutorial Delivery Logistik"
+                android:background="@drawable/btn_menu_custom"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/buttonTutorialCapture"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tutorial Upload Capture"
+                android:background="@drawable/btn_menu_custom"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/buttonTutorialRealtimeLocation"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tutorial Realtime Location"
+                android:background="@drawable/btn_menu_custom"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tutorial "
+                android:background="@drawable/btn_menu_custom"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tutorial "
+                android:background="@drawable/btn_menu_custom"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tutorial "
+                android:background="@drawable/btn_menu_custom"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tutorial "
+                android:background="@drawable/btn_menu_custom"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tutorial "
+                android:background="@drawable/btn_menu_custom"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

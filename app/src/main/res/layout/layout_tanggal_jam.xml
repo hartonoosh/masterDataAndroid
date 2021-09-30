@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assalamu'alaikum, SRI HARTONO"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="italic"/>
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format24Hour="EEEE, dd MMM yyyy"
+        android:format12Hour="EEEE, dd MMM yyyy"
+        android:textColor="@color/secondaryVariant"/>
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:format24Hour="k:mm:ss"
+        android:format12Hour="k:mm:ss"/>
+
+</LinearLayout>
